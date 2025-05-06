@@ -50,6 +50,9 @@ nav{
 .secondary-bg{
     background-color: #FFF8F3;
 }
+.text-center{
+    text-align: center;
+}
 
 nav ul{
     display: flex;
@@ -105,13 +108,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
 .item-desc{
@@ -120,4 +126,15 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+/* skill section styles */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
